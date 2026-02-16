@@ -1,4 +1,4 @@
-package com.example.cryptobae
+package com.cryptobae.app
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178877072818",
+    "project_id": "cryptobae",
+    "storage_bucket": "cryptobae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178877072818:android:8f84ac501c3d4c20bd90ab",
+        "android_client_info": {
+          "package_name": "com.cryptobae.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178877072818-63d45bnus4stgrd5dh3pgjse69r44r5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK1Bj-MFMbPEsOf-hJb95IenBQB1JgSXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178877072818-63d45bnus4stgrd5dh3pgjse69r44r5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
