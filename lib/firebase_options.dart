@@ -23,10 +23,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -65,6 +62,16 @@ class DefaultFirebaseOptions {
     authDomain: 'cryptobae.firebaseapp.com',
     storageBucket: 'cryptobae.firebasestorage.app',
     measurementId: 'G-CDQT88P9C5',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCY8F4USuEPfS0SVoFkG5Vyr0VDHAHeO7o',
+    appId: '1:178877072818:ios:6724c2467ffd9b00bd90ab',
+    messagingSenderId: '178877072818',
+    projectId: 'cryptobae',
+    storageBucket: 'cryptobae.firebasestorage.app',
+    iosClientId: '178877072818-3ttid2r516oemf11ulbm3vmjvq6sclsd.apps.googleusercontent.com',
+    iosBundleId: 'com.cryptobae.app',
   );
 
 }
