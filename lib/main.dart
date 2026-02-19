@@ -3,6 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'screens/crypto_home.dart';
+import 'roast_test_page.dart';
+import 'screens/daily_roast_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Crypto Bae',
       theme: ThemeData.dark(useMaterial3: true),
-      home: const CryptoHome(),
+      home: const DailyRoastPage(),
     );
   }
 }
